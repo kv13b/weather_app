@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear; /* Moved animation here to apply to all elements with .App-logo class */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Updated box shadow */
+  border-radius: 20px;
+  background-color: #fff; /* Set a background color for the card */
+}
+
+.input {
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Added border for input */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Updated box shadow */
+  font-size: 25px;
+  padding: 10px; /* Added padding for input */
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #47a3da;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4; /* Set a background color for the body */
+}
+
+h1 {
+  font-family: "Arial", sans-serif; /* Choose a suitable font family */
+  font-size: 1.5rem; /* Adjust the font size as per your preference */
+  color: #333; /* Set the color for the heading text */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing for a stylish look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  margin-bottom: 20px; /* Add some space at the bottom of the heading */
+}
+.app {
+  text-align: center;
+  max-width: 600px; /* Adjust the width as per your requirement */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  border: 1px solid #ccc; /* Updated border color */
+  background: #e8eff5;
+  background-color: #fff; /* Set a background color for the container */
+}
+
+/* Additional styles for specific elements */
+h1 {
+  color: #333; /* Set the color for heading text */
+}
+
+p {
+  line-height: 1.6; /* Adjust the line height for paragraphs */
+}
